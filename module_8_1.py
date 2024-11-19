@@ -1,7 +1,7 @@
 def add_everything_up(a, b):
     try:
         c = a + b
-    except:
+    except TypeError:
         return str(a) + str(b)
     else:
         if isinstance(c, int) or isinstance(c, float):
